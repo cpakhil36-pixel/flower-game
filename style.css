@@ -1,1 +1,36 @@
+body{
+margin:0;
+overflow:hidden;
+font-family:Arial;
+background:linear-gradient(135deg,#ffdde1,#ee9ca7);
+}
 
+.container{
+text-align:center;
+margin-top:150px;
+color:white;
+}
+
+button{
+padding:15px 30px;
+font-size:18px;
+border:none;
+border-radius:10px;
+background:#ff4d6d;
+color:white;
+cursor:pointer;
+}
+
+.flower{
+position:absolute;
+animation:fall 5s linear forwards;
+}
+
+@keyframes fall{
+0%{transform:translateY(-100px);}
+100%{transform:translateY(700px);}
+}
+
+img{
+width:60px;
+}
