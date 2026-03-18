@@ -33,4 +33,7 @@ animation:fall 5s linear forwards;
 
 img{
 width:60px;
+}img{
+width:40px;
+image-rendering: auto;
 }
