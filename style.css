@@ -1,18 +1,1 @@
-body{
-text-align:center;
-font-family:Arial;
-}
 
-#game-board{
-width:320px;
-margin:auto;
-display:grid;
-grid-template-columns:repeat(8,40px);
-}
-
-.tile{
-width:40px;
-height:40px;
-border:1px solid #ccc;
-font-size:25px;
-}
