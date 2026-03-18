@@ -1,4 +1,5 @@
 let garden = document.getElementById("garden");
+let message = document.getElementById("message");
 
 let flowers = ["🌸","🌼","🌻","🌷","🌹"];
 
@@ -11,17 +12,9 @@ tile.innerHTML = flowers[Math.floor(Math.random()*flowers.length)];
 
 tile.addEventListener("click",function(){
 tile.innerHTML = "❤️";
+message.style.opacity = 1;
 });
 
 garden.appendChild(tile);
-}
 
-// Surprise message
-setTimeout(function(){
-alert("Hi Shivanya ❤️\nThis little garden is just for you 🌸😊");
-},2000);
-
-// Button message
-function showMessage(){
-alert("Shivanya ❤️\nYou are really special to me 😊🌸");
 }
