@@ -24,5 +24,5 @@ f.appendChild(img);
 
 document.body.appendChild(f);
 }
-
-}
+img.style.width = "40px";
+img.style.objectFit = "contain";
